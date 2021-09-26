@@ -17,7 +17,7 @@ header {
 }
 nav {
   margin: 20px;
-    margin-top: 40px;
+  margin-top: 40px;
   width: 95%;
   display: flex;
   justify-content: space-between;
@@ -27,10 +27,10 @@ nav {
 
 #name {
   letter-spacing: 3px;
-  
+
   color: rgb(32, 32, 32);
   margin-left: 5%;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 60px;
 
   align-self: center;
@@ -49,5 +49,4 @@ nav {
 }
 li {
   list-style: none;
-  
 }
