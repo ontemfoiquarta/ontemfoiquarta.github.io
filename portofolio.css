@@ -132,4 +132,17 @@ a:active{
   .nav-links {
     visibility: hidden;
   }
+  header{
+    visibility: hidden;
+  }
+  .hero-text{
+    
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  #hero-par{
+    font-size: 10vw;
+    
+  }
 }
