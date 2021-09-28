@@ -45,6 +45,7 @@ nav {
 
   letter-spacing: 1px;
 }
+
 li {
   list-style: none;
 }
@@ -52,66 +53,72 @@ li {
 .hero-text {
   display: flex;
   width: 80vw;
-  
   justify-content: center;
-  margin:auto;
-  
+  margin: auto;
 }
 
 #hero-par {
   font-size: 6vw;
-  font-family: 'Playfair Display', serif;
-  
+  font-family: "Playfair Display", serif;
 }
-.section{
-  width:80%;
-  margin:0 auto;
-  height:10vh;
-  position:relative;
-  padding:0
+.section {
+  width: 80%;
+  margin: 0 auto;
+  height: 10vh;
+  position: relative;
+  padding: 0;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hscroll-line {
-	bottom:30px;
-	right: 50%;
-	height: 5px;
-	position: absolute;
-	overflow: hidden;
+  
+  height: 5px;
+  position: absolute;
+  overflow: hidden;
   width: 50px;
   transform: rotate(90deg);
-  transform-origin:50% 50%;
- 
+  transform-origin: 50% 50%;
+  
 }
-
 
 .hscroll-line::before,
 .hscroll-line::after {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	content: ""
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
 }
 
 .hscroll-line:before {
-	background: #ffffff3b;
+  background: #ffffff3b;
 }
 
 .hscroll-line::after {
-	background: #000000;
-	animation: move 3s infinite
+  background: #000000;
+  animation: move 3s infinite;
 }
 
 @keyframes move {
-	0% {
-		transform: translate3d(-200%, 0, 0)
-	}
-	60% {
-		transform: translate3d(100%, 0, 0)
-	}
-	100% {
-		transform: translate3d(100%, 0, 0)
-	}
+  0% {
+    transform: translate3d(-200%, 0, 0);
+  }
+  60% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(100%, 0, 0);
+  }
 }
-  
+@media only screen and (max-width:600px) {
+  .section{
+    visibility: hidden;
+  }
+  .nav-links{
+    visibility: hidden;
+  }
+}
