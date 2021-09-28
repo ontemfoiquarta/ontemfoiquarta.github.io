@@ -49,6 +49,13 @@ nav {
 li {
   list-style: none;
 }
+a{
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+}
+a:active{
+  text-decoration: underline;
+}
 
 .hero-text {
   display: flex;
@@ -59,7 +66,9 @@ li {
 
 #hero-par {
   font-size: 6vw;
-  font-family: "Playfair Display", serif;
+  font-family: "Abril Fatface", serif;
+  
+  
 }
 .section {
   width: 80%;
