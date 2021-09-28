@@ -48,3 +48,18 @@ nav {
 li {
   list-style: none;
 }
+
+.hero-text {
+  display: flex;
+  width: 80vw;
+  
+  justify-content: center;
+  margin:auto;
+  height: 70vh;
+}
+
+#hero-par {
+  font-size: 6vw;
+  font-family: 'Playfair Display', serif;
+  
+}
