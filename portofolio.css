@@ -11,6 +11,10 @@ html {
 
 body {
   background-color: #e0e0e0;
+  background-image: url(/vecteezy_light-gray-cement-background_1907569.jpg);
+  background-size: cover;
+  
+  
 }
 header {
   width: 100%;
