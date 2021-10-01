@@ -23,25 +23,28 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet"> 
     <title>WELCOME</title>
   </head>
   <body>
     <header id="home">
-      <nav>
+      <nav id="top">
         
-        <ul class="nav-links">
-          <a class="links" href="#home"><li>home</li></a>
-          <a class="links" href="#design"><li>design</li></a>
+        <ul id="nav-buttons" class="nav-links">
+          <a class="links" onclick="moveHome()" href="#top"><li>HOME</li></a>
+          <a class="links" onclick="moveDesign()" href="#design"><li>DESIGN</li></a>
          <!-- <a class="links" href="#photos"><li>photo</li></a> -->
-          <a class="links" href="#about"><li>about</li></a>
+          <a class="links" id="about-btn" onclick="moveAbout()" href="#about"><li>ABOUT</li></a>
           
         </ul>
       </nav>
     </header>
     <div class="hero">
-    <p id="name">j o a o c a l d e i r a</p>
+    <p id="name"></p>
       <img id="hero-img" src="/slice1.png" alt="">
-      <p class="scroll">scroll</p>
+      <p class="scroll">SCROLL</p>
     </div>
     <div id="design" class="design">
       <div class="container">
@@ -71,12 +74,10 @@
   </div> -->
   <div id="about" class="about">  
     <div class="about-me-container">
-    <img class="about-img" src="profilephoto.png" alt="">
-    <p class="about-par">i'm joão and here i am. well, at least half of me. i've been designing for the past five years and taking photos for about twenty. 
-      i began my design journey by studying everything graphic related but now i'm shifting my focus towards  web development and user research.
-      before realizing "graphic design is my passion" i studied biology and anthropology. you can find me at <a href="mailto:joaomgdccaldeira@gmail.com">joaomgdccaldeira@gmail.com</a>. </p>
+   <!--<img class="about-img" src="profilephoto.png" alt="">-->
+    <p class="about-par"> JOÃO.DESIGNER.BORN IN 1994.NOTJEFFREYBEZOS. UX/UI.ANTRHROPOLOGY. BIOLOGY.PIZZAMAKER.TH REEBALLJUGGLER.ACADE MICASSOCIATIONPRESIDE NT.NICE-ISHPERSON.  </P>  
     </div>
-    <div class="software-container">
+   <!--<div class="software-container">
       <img class="software" src="/affiinity.png" alt="">
       <img class="software"src="/ps.png" alt="">
       <img class="software"src="/prem.png" alt="">
@@ -84,9 +85,11 @@
       <img class="software"src="/html.png" alt="">
       <img class="software"src="/css.png" alt="">
       <img class="software"src="/js.png" alt="">
+    </div>-->
     </div>
-    </div>
+    <script src="/move.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/mailto.js"></script>
   </body>
 </html>
+<a href="mailto:joaomgdccaldeira@gmail.com">joaomgdccaldeira@gmail.com</a>. </p>
