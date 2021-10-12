@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome</title>
     <script src="script.js" defer></script>
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js" defer></script>  
+    <script src="/swup.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -20,42 +29,40 @@
   </head>
 
   <body onload="initClock()">
-    
+    <main id="swup" class="transition-fade">
     <nav>
       <video
-      muted
-      loop
-      class="video"
-      autoplay
-      height="1080"
-      width="800"
-      src="HeroVideo.mp4"
-    ></video>
-    <div class="intro">
-      <!--digital clock start-->
-      <div class="dateclock">
-        <div class="datetime">
-          <div class="date">
-            <span id="dayname">Day</span>,
-            <span id="month">Month</span>
-            <span id="daynum">00</span>,
-            <span id="year">Year</span>
+        muted
+        loop
+        class="video"
+        autoplay
+        height="1080"
+        width="800"
+        src="HeroVideo.mp4"
+      ></video>
+      <div class="intro">
+        <!--digital clock start-->
+        <div class="dateclock">
+          <div class="datetime">
+            <div class="date">
+              <span id="dayname">Day</span>,
+              <span id="month">Month</span>
+              <span id="daynum">00</span>,
+              <span id="year">Year</span>
+            </div>
+            <div class="time">
+              <span id="hour">00</span>: <span id="minutes">00</span>:
+              <span id="seconds">00</span>
+              <span id="period">AM</span>
+            </div>
           </div>
-          <div class="time">
-            <span id="hour">00</span>: <span id="minutes">00</span>:
-            <span id="seconds">00</span>
-            <span id="period">AM</span>
-          </div>
+          <!--digital clock end-->
         </div>
-        <!--digital clock end-->
-      </div>
-      <ul>
-        <li onclick="location.href = 'portfolio.html';" style="cursor: pointer;">ENTER</li>
         
-      </ul>
-    </div>
-     
-    
+          <a href="/portfolio.html">Enter</a>
+       
+      </div>
     </nav>
+  </main>
   </body>
 </html>

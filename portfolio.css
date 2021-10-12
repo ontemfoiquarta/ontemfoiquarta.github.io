@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+body {
+ background-color: rgb(255, 255, 255);
+ 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header  {
+    margin: auto;
+background-color:white;
+  height: 50px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: #000000 1px solid;
+  font-size: 12px;
+}
+
+li {
+    list-style: none;
+  }
+
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.links{
+  text-decoration: none;
+  color:#000000;
+  font-family: "Arial", cursive;
+  font-weight: bold;
+  
+}
+
+.main{ 
+    margin: auto;
+height: 100vh;
+width: 60%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.hero-text {
+ 
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.bold {
+    font-weight: 900;
+}
+.subtext{
+    font-size: 15px;
+}
+.cta-img{
+    display: block;
+    width: 400px;
+   
+}
+.cta-btn{
+    margin-top: 30px;
+    background-color: #000000;
+    color: aliceblue;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    
+}

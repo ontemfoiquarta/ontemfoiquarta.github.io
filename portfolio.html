@@ -3,91 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    
-    <link rel="stylesheet" href="portofolio.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/portfolio.css" />
+    
     <title>WELCOME</title>
   </head>
   <body>
     <header id="home">
+      <h1>JOÃO.</h1>
       <nav id="top">
-        
+     
         <ul id="nav-buttons" class="nav-links">
-          <a class="links" onclick="moveHome()" href="#top"><li>HOME</li></a>
-          <a class="links" onclick="moveDesign()" href="#design"><li>DESIGN</li></a>
-         <!-- <a class="links" href="#photos"><li>photo</li></a> -->
-          <a class="links" id="about-btn" onclick="moveAbout()" href="#about"><li>ABOUT</li></a>
+          <a class="links"><li>HOME</li></a>
+          <a class="links"><li>DESIGN</li></a>
+          <a class="links"><li>CONTACT</li></a>
           
         </ul>
       </nav>
     </header>
-    <div class="hero">
-    <p id="name"></p>
-      <img id="hero-img" src="/slice1.png" alt="">
-      <p class="scroll">SCROLL</p>
+    <div class="main">
+      <div class="cta">
+      <p class="hero-text">Hello. I am</p>
+      <p class="hero-text bold" >João Caldeira</p>
+      <p class="subtext">I'm the best designer ever. According to my mom.</p>
+      <a href="#" class="cta-btn bold subtext">SEND AN EMAIL</a>
+      </div>
+     
+      <div class="hero-img">
+        <img src="/profilephoto.png" class="cta-img" alt="A picture of me">
+      </div>
     </div>
-    <div id="design" class="design">
-      <div class="container">
-   <img id="img1"  class="images" src="/Absolut.png.jpg"  alt="">
-   <img id="img2"  class="images" src="/Bandas!.jpg.jpg"   alt="">
-   <img id="img3"  class="images" src="/HOTSPOT'18.png.jpg"  alt="">
-   <img id="img4"  class="images" src="/video-1565108355_Moment.jpg.jpg"   alt="">
-   <img id="img5"  class="images" src="/Open Day.pdf.jpg" alt="">
-   <img id="img6"  class="images" src="/balletno.jpg.jpg"  alt="">
-   <img id="img7"  class="images"  src="Free Baby Onesie M1ockup.png" alt="">
-   <img id="img8"  class="images"  src="tshirt.png" alt="">
-   <img id="img9"  class="images"  src="Logo_intemporal.png.jpg" alt="">
-   <img id="img10" class="images"  src="LOGO_SP_PNG.png.jpg"  alt="">
-   <img id="img11" class="images"  src="Untitled-2.jpg.jpg"  alt="">
-   <video muted id="vid1"  autoplay loop src="PROMO_HOTSPOT19.mp4" height="500" width="700"></video>
-  </div>    
-  </div>
-  <!--  <div id="photos" class="photos">
-<img class="photography" src="/CNV000007.JPG" alt="">
-<img class="photography" src="/CNV000009.JPG" alt="">
-<img class="photography" src="/CNV000011.JPG" alt="">
-<img class="photography" src="/CNV000015.JPG" alt="">
-<img class="photography" src="/CNV000016.JPG" alt="">
-<img class="photography" src="/CNV000020.JPG" alt="">
-<img class="photography" src="/CNV000026.JPG" alt="">
-<img class="photography" src="/CNV000027.JPG" alt="">
-  </div> -->
-  <div id="about" class="about">  
-    <div class="about-me-container">
-   <!--<img class="about-img" src="profilephoto.png" alt="">-->
-    <p class="about-par"> JOÃO.DESIGNER.BORN IN 1994.NOTJEFFREYBEZOS. UX/UI.ANTRHROPOLOGY. BIOLOGY.PIZZAMAKER.TH REEBALLJUGGLER.ACADE MICASSOCIATIONPRESIDE NT.NICE-ISHPERSON.  </P>  
-    </div>
-   <!--<div class="software-container">
-      <img class="software" src="/affiinity.png" alt="">
-      <img class="software"src="/ps.png" alt="">
-      <img class="software"src="/prem.png" alt="">
-      <img class="software"src="/xd.png" alt="">
-      <img class="software"src="/html.png" alt="">
-      <img class="software"src="/css.png" alt="">
-      <img class="software"src="/js.png" alt="">
-    </div>-->
-    </div>
-    <script src="/move.js"></script>
+    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/mailto.js"></script>
   </body>

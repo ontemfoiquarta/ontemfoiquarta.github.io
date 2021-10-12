@@ -7,6 +7,16 @@
   scrollbar-width: none;
 }
 
+.transition-fade {
+  transition: 1.5s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -20,30 +30,18 @@ nav {
   justify-content: center;
 }
 
-ul {
-  margin-top: 5%;
-  height: 60px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  list-style-type: none;
-}
-
-li {
-  
-  border: 1px aliceblue solid;
-  width: 100px;
-  text-align: center;
-  height: 50px;
-  line-height: 45px;
+a {
+  padding: 20px;
+  border: 1px white solid;
+  text-transform: uppercase;
+  text-decoration: none;
   color: aliceblue;
-  font-family: monospace;
+  margin-top: 30px;
+  font-family: "Abril Fatface" ;
 }
-li:hover {
-  background-color: aliceblue;
-  color: rgb(41, 66, 66);
+a:hover{
+  background-color: rgb(25, 70, 67);
+  opacity: 0.9;
 }
 
 .intro {
