@@ -28,7 +28,7 @@ a {
 
 header  {
     margin: auto;
-  height: 50px;
+  
   width: 60%;
   display: flex;
   justify-content: space-between;
@@ -58,7 +58,7 @@ li {
 
 .main{ 
     margin: auto;
-height: 100vh;
+
 width: 60%;
 display: flex;
 justify-content: space-between;
