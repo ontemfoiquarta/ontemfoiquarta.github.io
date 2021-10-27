@@ -9,27 +9,38 @@
     
     <title>WELCOME</title>
   </head>
-  <body>
+  <body onload="initClock()">
     <header id="home">
       <h1>JOÃO.</h1>
-      
+      <!--digital clock start-->
+      <div class="dateclock">
+        <div class="datetime">
+          <div class="date">
+            <span id="dayname">Day</span>,
+            <span id="month">Month</span>
+            <span id="daynum">00</span>,
+            <span id="year">Year</span>
+          </div>
+          <div class="time">
+            <span id="hour">00</span>: <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+            <span id="period">AM</span>
+          </div>
+        </div>
+        <!--digital clock end-->
+      </div>
     </header>
-    <div class="main">
-      <div class="cta">
-      <p class="hero-text">Hello. I am</p>
-      <p class="hero-text bold" >João Caldeira</p>
-      <p class="subtext">I'm the best designer ever. According to my mom.</p>
-      <a href="#" class="cta-btn bold subtext">SEND AN EMAIL</a>
-      </div>
+  
+  
+      
      
-      <div class="hero-img">
-        <img src="/profilephoto.png" class="cta-img" alt="A picture of me">
-      </div>
-    </div>
+     
+   
+ 
     
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/mailto.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
-<!--<a href="mailto:joaomgdccaldeira@gmail.com">joaomgdccaldeira@gmail.com</a>. </p>-->

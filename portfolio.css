@@ -1,6 +1,6 @@
 *,
 *::before,
-*::after {
+*::after{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,13 +12,11 @@ html {
 
 body {
   
-
+  
  background-image: url(/BG_site.jpg);
  background-repeat: no-repeat;
- background-color: #000000;
  background-size: cover;
-
- 
+ background-attachment: fixed;
 }
 
 a {
@@ -27,8 +25,7 @@ a {
 }
 
 header  {
-    margin: auto;
-  
+  margin: auto;
   width: 60%;
   display: flex;
   justify-content: space-between;
@@ -36,33 +33,9 @@ header  {
   font-family: Arial, Helvetica, sans-serif;
   border-bottom: #000000 1px solid;
   font-size: 12px;
-}
 
-li {
-    list-style: none;
-  }
 
-.nav-links{
-  display: flex;
-  justify-content: space-between;
-  width: 400px;
-}
 
-.links{
-  text-decoration: none;
-  color:#000000;
-  font-family: "Arial", cursive;
-  font-weight: bold;
-  
-}
-
-.main{ 
-    margin: auto;
-
-width: 60%;
-display: flex;
-justify-content: space-between;
-align-items: center;
 
 }
 .hero-text {
@@ -71,27 +44,15 @@ align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     line-height: 40px;
+    
 }
+
+
+
 
 .bold {
     font-weight: 900;
 }
 .subtext{
     font-size: 15px;
-}
-.cta-img{
-    display: block;
-    width: 400px;
-    display: none;
-   
-}
-.cta-btn{
-    margin-top: 30px;
-    background-color: #000000;
-    color: aliceblue;
-    border-radius: 20px;
-    border: none;
-    padding: 10px;
-    display: inline-block;
-    
 }
