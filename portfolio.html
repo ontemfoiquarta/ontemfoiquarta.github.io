@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/portfolio.css" />
+    <title>Portfolio</title>
+  </head>
+  <body onload="initClock()">
+    <video autoplay muted loop id="bg-video">
+      <source src="/Media/production ID 4814932.mp4" type="video/mp4" />
+    </video>
+    <header id="home">
+      <h1>PORTFOLIO.</h1>
+      <!--digital clock start-->
+      <div class="dateclock">
+        <div class="datetime">
+          <div class="date">
+            <span id="dayname">Day</span>,
+            <span id="month">Month</span>
+            <span id="daynum">00</span>,
+            <span id="year">Year</span>
+          </div>
+          <div class="time">
+            <span id="hour">00</span>: <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+            <span id="period">AM</span>
+          </div>
+        </div>
+        <!--digital clock end-->
+      </div>
+    </header>
+    <div class="progress">
+      <p>
+        Filling in the blanks<br />
+        Come back soon.
+      </p>
+    </div>
+    <script src="/script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(222, 231, 233);
+}
+
+header {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: #000000 1px solid;
+  font-size: 12px;
+}
+
+.intro-paragraphs {
+  height: 90vh;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-one {
+  font-family: monospace;
+  color: rgb(222, 231, 233);
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+
+
+.mailto-link {
+  color: rgb(222, 231, 233);
+  font-size: 10px;
+  font-family: monospace;
+  border: 1px solid rgb(222, 231, 233);
+  padding: 10px;
+}
+.mailto-link:hover {
+  background-color: rgb(222, 231, 233);
+  color: rgb(72, 87, 90);
+}
+
+.ptf-btn{
+  width: fit-content;
+  color: rgb(222, 231, 233);
+  font-size: 10px;
+  font-family: monospace;
+  border: 1px solid rgb(222, 231, 233);
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.bold {
+  font-weight: 900;
+}
+.subtext {
+  font-size: 15px;
+}
