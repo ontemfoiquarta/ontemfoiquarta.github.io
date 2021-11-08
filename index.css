@@ -50,8 +50,6 @@ header {
   font-size: 15px;
 }
 
-
-
 .mailto-link {
   color: rgb(222, 231, 233);
   font-size: 10px;
@@ -64,7 +62,7 @@ header {
   color: rgb(72, 87, 90);
 }
 
-.ptf-btn{
+.ptf-btn {
   width: fit-content;
   color: rgb(222, 231, 233);
   font-size: 10px;
@@ -73,7 +71,7 @@ header {
   margin-top: 15px;
   padding: 10px;
 }
-.ptf-btn:hover{
+.ptf-btn:hover {
   background-color: rgb(222, 231, 233);
   color: rgb(72, 87, 90);
 }
