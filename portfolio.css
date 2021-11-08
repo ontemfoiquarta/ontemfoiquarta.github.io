@@ -9,14 +9,13 @@ html {
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
-
-body {
-  
-  
- background-image: url(/BG_site.jpg);
- background-repeat: no-repeat;
- background-size: cover;
- background-attachment: fixed;
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 
 a {
@@ -38,17 +37,39 @@ header  {
 
 
 }
-.hero-text {
- 
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    line-height: 40px;
-    
+
+.intro-paragraphs {
+  
+  height: 90vh;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
 }
 
+.intro-one{
+  font-family: monospace;
+  font-size: 25px;
+  color:rgb(222, 231, 233);
+  margin-bottom: 15px;
+}
 
-
+.mailto-link{
+  color: rgb(222, 231, 233);
+  font-family: monospace;
+  border: 1px solid rgb(222, 231, 233);
+  padding: 10px;
+  
+  
+}
+.mailto-link:hover{
+  background-color: rgb(222, 231, 233);
+  color: rgb(72, 87, 90)
+  
+}
 
 .bold {
     font-weight: 900;
