@@ -55,10 +55,12 @@ header  {
   font-size: 25px;
   color:rgb(222, 231, 233);
   margin-bottom: 15px;
+  font-size: 15px;
 }
 
 .mailto-link{
   color: rgb(222, 231, 233);
+  font-size: 10px;
   font-family: monospace;
   border: 1px solid rgb(222, 231, 233);
   padding: 10px;
