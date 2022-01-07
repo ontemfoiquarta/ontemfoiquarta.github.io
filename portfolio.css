@@ -65,3 +65,31 @@ header {
   font-family: monospace;
   color: rgb(222, 231, 233);
 }
+
+.colorful {
+  position: relative;
+  width: 60%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#color_landing{
+  width: 75%;
+  align-self: flex-start;
+  box-shadow: 10px 5px 10px rgba(0,0,0,0.3);
+
+}
+#color_mock {
+  height: 80%;
+  position: absolute;
+  top: 40%;
+  left: 70%;
+}
+
+.colorful div {
+  width: 200px;
+  font-family: monospace;
+  color: rgb(222, 231, 233);
+}
