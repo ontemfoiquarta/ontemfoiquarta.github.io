@@ -26,18 +26,42 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: #000000 1px solid;
     font-size: 12px;
-    padding: 10px;
+    height: 60px;
+    
   }
 .progress{
-    height: 90vh;
+
     width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     margin: auto;
 }
-p{
+#title{
+  
+    margin-top: ;
     font-family: monospace;
     font-size: 16px;
     color: rgb(222, 231, 233);
+}
+
+.freelancer {
+  
+  width: 60%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#free_img{
+  width: 75%;
+  align-self: flex-start;
+  box-shadow: 10px 5px 10px rgba(0,0,0,0.3);
+
+}
+.freelancer div {
+  width: 200px;
+  font-family: monospace;
+  color: rgb(222, 231, 233);
 }
