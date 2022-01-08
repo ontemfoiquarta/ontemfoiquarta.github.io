@@ -29,6 +29,10 @@ header {
     height: 60px;
     
   }
+  a{
+    text-decoration: none;
+    color: #000000;
+  }
 .progress{
   
     width: 60%;
@@ -94,4 +98,19 @@ header {
   width: 200px;
   font-family: monospace;
   color: rgb(222, 231, 233);
+}
+
+.otherwork {
+  position: relative;
+  width: 60%;
+  margin: 100px auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  opacity: 0.9;
+}
+.resize {
+ width: clamp(30%, 40%, 600px);
+ 
 }
