@@ -30,25 +30,24 @@ header {
     
   }
 .progress{
-
+  
     width: 60%;
+    height: 100px;
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items:flex-end;
     margin: auto;
 }
-#title{
-  
-    margin-top: ;
+#title{ 
+    width: 95%;
     font-family: monospace;
     font-size: 16px;
     color: rgb(222, 231, 233);
 }
 
 .freelancer {
-  
   width: 60%;
-  margin: 100px auto;
+  margin: 50px auto;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -58,7 +57,7 @@ header {
   width: 75%;
   align-self: flex-start;
   box-shadow: 10px 5px 10px rgba(0,0,0,0.3);
-  opacity: 0.3;
+  opacity: 0.95;
 
 }
 .freelancer div {
@@ -80,15 +79,15 @@ header {
   width: 75%;
   align-self: flex-start;
   box-shadow: 10px 5px 10px rgba(0,0,0,0.3);
-  opacity: 0.3;
+  opacity: 0.95;
 
 }
 #color_mock {
   height: 80%;
   position: absolute;
-  top: 40%;
-  left: 70%;
-  opacity: 0.3;
+  top: 20%;
+  left: 68.7%;
+  opacity: 0.6;
 }
 
 .colorful div {
